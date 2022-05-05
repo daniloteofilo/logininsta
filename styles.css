@@ -172,10 +172,10 @@ input {
 }
 @media (max-width: 650px) {
     body {
-        
-        font-size: 1rem;
+        font-size: 1.5rem;
         background-color: white;
     }
+
     .section2{
         border: white;
     }
@@ -186,11 +186,11 @@ input {
     input {
         height: 3rem;
         margin: auto 1px;
-        min-width: 100%;
     }
 
     .entrar {
         height: 4rem;
+        font-size: x-large;
     }
 
     .smallbox {
@@ -199,7 +199,7 @@ input {
         margin-bottom: 10%;
     }
 
-    }
     .container-ou {
         display: none;
     }
+}
