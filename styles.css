@@ -1,0 +1,205 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    padding-top: 1%;
+    padding-right: 5%;
+    width: 100%;
+    display: flex;
+    height: 100vh;
+}
+
+section {
+    display: flex;
+    margin: 0% auto;   
+}
+
+.section1 {
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1%;
+}
+
+.phone-image {
+    width: 1px;
+}
+
+.section2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+
+.bigbox {
+    display: flex;
+    flex-flow: wrap;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-bottom: 2vh;
+    align-items: center;
+    height: 65vh;
+    width: 55vh;
+    border: 1px solid lightgray;
+    background-color: white;
+}
+
+
+.nomeinstabutton {
+    height: 8vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 55vh;
+    margin: 10% 0;
+    overflow: hidden;
+}
+
+.container-ou {
+    display: flex;
+    justify-content: flex;
+    align-items: center;
+    padding: 30px 5px;
+}
+
+.ou {
+    display: flex;
+    color: rgb(128, 128, 128);
+    font-size: small;
+}
+
+.container-facebook {
+    padding: 5%;
+}
+
+.facebook {
+    font-size: 0.9rem;
+    color: #385185;
+    }
+
+.container-recover {
+    padding: 10px;
+}
+
+.recover {
+    color: #0000ff;
+    font-size: 0.8rem;
+}
+
+.login {
+    border: 2px solid black;
+}
+
+input {
+    width: 280px;
+    height: 5.5vh;
+    margin-bottom: 1vh;
+    border: 1px solid lightgray;
+    padding: 0px 2%;
+}
+.button {
+    text-align: center;
+}
+.entrar {
+    text-decoration: none;
+    height: 5vh;
+    width: 280px;
+    background-color: #b2dffc;
+    font-size: small;
+    color: white;
+    border-radius: 0.5rem;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.entrar:hover {
+    transition: 0.5s;
+    background-color: #385185;
+
+}
+
+.smallbox {
+    display: flex;
+    justify-content: center;
+    padding: 5% 0;
+    align-items: center;
+    height: 10%;
+    width: 55vh;
+    margin-left: 0;
+    border: 1px solid lightgray;
+    background-color: white;
+}
+
+.createaccount {
+    padding: 2%;
+    font-size: 0.9rem;
+}
+
+.bluename {
+    color: #0095f6;
+    font-size: 0.9rem;
+}
+
+.imagebutton {
+  height: 40px;
+  
+}
+
+.getapp {
+    padding: 1%;
+    text-align: center;
+    padding: 2%;
+}
+
+@media (max-width:1024px) {
+    .section2{
+        width: 100%;
+    }
+    .section1{ 
+        display: none;
+    }
+}
+@media (max-width: 650px) {
+    body {
+        
+        font-size: 1rem;
+        background-color: white;
+    }
+    .section2{
+        border: white;
+    }
+    .bigbox {
+        border: none;
+    }
+
+    input {
+        height: 3rem;
+        margin: auto 1px;
+        min-width: 100%;
+    }
+
+    .entrar {
+        height: 4rem;
+    }
+
+    .smallbox {
+        border: none;
+        justify-content: center;
+        margin-bottom: 10%;
+    }
+
+    }
+    .container-ou {
+        display: none;
+    }
